@@ -1,7 +1,7 @@
 [versions]
 accompanistPermissions = "0.34.0"
 accompanistSystemuicontroller = "0.27.0"
-agp = "8.5.2"
+agp = "8.7.2"
 animation = "1.7.7"
 appcompat = "1.7.0"
 coilGif = "2.1.0"
@@ -12,11 +12,10 @@ coreSplashscreen = "1.0.1"
 credentialsPlayServicesAuth = "1.3.0"
 credentials = "1.3.0"
 desugar_jdk_libs = "2.1.4"
-firebaseBom = "33.3.0"
 googleid = "1.1.0"
 hiltAndroid = "2.50"
 hiltNavigationCompose = "1.2.0"
-kotlin = "1.9.0"
+kotlin = "1.9.25"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -29,9 +28,9 @@ lifecycleRuntimeKtxVersion = "2.8.6"
 lifecycleVersion = "2.8.6"
 loggingInterceptor = "5.0.0-alpha.3"
 lottieCompose = "6.1.0"
+guavaAndroid = "33.2.1-android"
 navigationCompose = "2.8.6"
 okhttp = "5.0.0-alpha.3"
-onesignal = "[5.0.0, 5.99.99]"
 pagingRuntimeKtx = "3.3.4"
 playServicesAuth = "21.2.0"
 r8 = "8.7.18"
@@ -83,11 +82,6 @@ coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose"
 coil-gif = { module = "io.coil-kt:coil-gif", version.ref = "coilGif" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
-firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
-firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
-firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
-firebase-perf = { module = "com.google.firebase:firebase-perf" }
 googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleid" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
@@ -107,8 +101,8 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
 logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
 lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
+guava-android = { module = "com.google.guava:guava", version.ref = "guavaAndroid" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
-onesignal = { module = "com.onesignal:OneSignal", version.ref = "onesignal" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 r8 = { module = "com.android.tools:r8", version.ref = "r8" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
@@ -125,4 +119,3 @@ androidx-compose-testing = { group = "androidx.xr.compose", name = "compose-test
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-

@@ -32,10 +32,10 @@
 }
 
 # Keep all classes and methods in your app package
--keep class com.ekspensify.app.** { *; }
+-keep class com.honeypot.app.** { *; }
 
 # Keep custom UI components and inner classes
--keep class com.ekspensify.app.ui.** { *; }
+-keep class com.honeypot.app.ui.** { *; }
 
 # Ensure Composer constructor is not removed or obfuscated
 -keepclassmembers class * {
@@ -66,4 +66,3 @@
     public static *** e(...);
     public static *** v(...);
 }
-

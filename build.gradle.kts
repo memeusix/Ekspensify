@@ -8,20 +8,4 @@ plugins {
     // hilt plugin
     id("com.google.dagger.hilt.android") version "2.50" apply false
 
-    // Firebase
-    id("com.google.gms.google-services") version "4.4.2" apply false
-
-    //firebase
-    id("com.google.firebase.firebase-perf") version "1.4.2" apply false
-
-    id("com.google.firebase.crashlytics") version "3.0.2" apply false
-}
-buildscript {
-    repositories {
-        google()
-        maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
-    }
-    dependencies{
-        classpath (libs.r8)
-    }
 }

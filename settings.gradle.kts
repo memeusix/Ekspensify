@@ -22,5 +22,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Ekspensify"
+rootProject.name = "HoneyPot"
 include(":app")

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">HoneyPot</string>
+    <string name="sign_up">สมัครสมาชิก</string>
+    <string name="login">เข้าสู่ระบบ</string>
+
+    <!-- Onboarding strings (Thai) -->
+    <string name="onboarding_title_1">HoneyPot</string>
+    <string name="onboarding_desc_1">การติดตามการเงินที่ง่ายขึ้น ให้คุณลดความเครียดและสนุกได้มากขึ้น!</string>
+    <string name="onboarding_title_2">ติดตามอัตโนมัติ</string>
+    <string name="onboarding_desc_2">ติดตามและจัดหมวดหมู่ค่าใช้จ่ายของคุณโดยอัตโนมัติแบบเรียลไทม์</string>
+    <string name="onboarding_title_3">ตั้งงบประมาณ</string>
+    <string name="onboarding_desc_3">ตั้งงบ ควบคุมการใช้จ่าย และออมได้อย่างชาญฉลาด</string>
+
+    <!-- core messages -->
+    <string name="please_enter_your_email">กรุณาใส่อีเมลของคุณ</string>
+    <string name="please_enter_your_password">กรุณาใส่รหัสผ่านของคุณ</string>
+
+    <string name="no_data_found">ไม่พบข้อมูล</string>
+    <string name="from_label">จาก</string>
+    <string name="to_label">ถึง</string>
+    <string name="select_language">เลือกภาษา</string>
+    <string name="language_system">ใช้ค่าจากระบบ</string>
+    <string name="language_english">English</string>
+    <string name="language_thai">ไทย (Thai)</string>
+    <string name="language">ภาษา</string>
+
+    <string name="about">เกี่ยวกับ</string>
+
+    <!-- Batch2 localization keys (Thai placeholders) -->
+    <string name="are_you_sure">คุณแน่ใจหรือไม่?</string>
+    <string name="delete">ลบ</string>
+    <string name="apply">ใช้งาน</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="currency_rupee">₹</string>
+    <string name="sms_permission">สิทธิ์การเข้าถึง SMS</string>
+    <string name="grant_permission">อนุญาต</string>
+    <string name="by_granting_permission">โดยการอนุญาต คุณตกลงกับ</string>
+    <string name="terms_of_use">ข้อกำหนดการใช้งาน</string>
+    <string name="and">และ</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="no_otps">ไม่มี OTP</string>
+    <string name="no_personal_sms">ไม่มี SMS ส่วนบุคคล</string>
+    <string name="fully_local">ข้อมูลอยู่ภายในเครื่องเท่านั้น</string>
+    <string name="bullet">•</string>
+    <string name="sms_icon_desc">ไอคอน SMS</string>
+    <string name="empty_image_desc">ภาพประกอบเมื่อไม่มีรายการ</string>
+    <string name="no_account_image_desc">ภาพประกอบเมื่อไม่มีบัญชี</string>
+
+    <!-- accessibility content descriptions (Thai) -->
+    <string name="cd_back">ย้อนกลับ</string>
+    <string name="cd_camera">กล้อง</string>
+    <string name="cd_gallery">คลังภาพ</string>
+    <string name="cd_settings">การตั้งค่าเทมส์</string>
+    <string name="cd_calendar">ไอคอนปฏิทิน</string>
+    <string name="cd_confirm">ยืนยัน</string>
+
+    <!-- Batch4 localization keys (Thai placeholders) -->
+    <string name="cd_edit_icon">แก้ไข</string>
+    <string name="cd_create_budget">สร้างงบประมาณ</string>
+    <string name="create">สร้าง</string>
+    <string name="cd_more_menu">ตัวเลือกเพิ่มเติม</string>
+    <string name="cd_open_details">เปิดรายละเอียด</string>
+    <string name="income">รายได้</string>
+    <string name="expense">ค่าใช้จ่าย</string>
+    <string name="cd_picture_preview_image">ตัวอย่างรูปภาพ</string>
+    <string name="cd_download_image">ดาวน์โหลดรูปภาพ</string>
+    <string name="cd_transaction_attachment">ไฟล์แนบ</string>
+    <string name="cd_delete">ลบ</string>
+    <string name="cd_close">ปิด</string>
+    <string name="view">ดู</string>
+
+    <!-- Intro pages (Thai placeholders) -->
+    <string name="intro_title_1">HoneyPot</string>
+    <string name="intro_desc_1">การติดตามการเงินที่ง่ายขึ้น ให้คุณลดความเครียดและสนุกได้มากขึ้น!</string>
+    <string name="intro_title_2">ติดตามอัตโนมัติ</string>
+    <string name="intro_desc_2">ติดตามและจัดหมวดหมู่ค่าใช้จ่ายของคุณโดยอัตโนมัติแบบเรียลไทม์</string>
+    <string name="intro_title_3">ตั้งงบประมาณ</string>
+    <string name="intro_desc_3">ตั้งงบ ควบคุมการใช้จ่าย และออมได้อย่างชาญฉลาด</string>
+    <string name="website">เว็บไซต์</string>
+    <string name="contact_us">ติดต่อเรา</string>
+
+</resources>
